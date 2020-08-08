@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+    background-color: rgb(218, 209, 218);
+}
+
+span
+{
+color:red;
+}
+
+form{
+font-size:3vw;
+}
+
+
+
+legend{
+    
+    font-family: 'Lobster', cursive;
+}
+
+@media (min-width:923px)
+{
+    .form{
+    padding-left: 15%;
+    padding-right: 15%;
+    
+    }
+    /*.both_field{
+        width:310px;
+        margin-right:30px;
+    }
+    .medium_field{
+        width:310px;
+        margin-right:30px;
+   
+    }*/
+
+}
+@media (max-width:922px)
+{
+    .form{
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    }
+    /*.both_field{
+        width:40%;
+        min-width: 160px;
+        margin-right:10%;
+    }
+    .medium_field{
+        width:310px;
+        margin-right:30px;
+   
+    }*/
+
+}
+
+input, .venue{
+    height:40px;
+    width:42.5%;
+    background-color: #d4e8f0;
+}
+textarea, input, button{
+    background-color: rgb(212, 232, 240);
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid rgb(102, 97, 97);
+    border-bottom: 2px solid rgb(102, 97, 97);
+
+}
+input:hover,textarea:hover{
+    border: 2px solid slategrey;
+}/*
+
+.both1_field,.both2_field,.number_field,.pack_field,.venue{
+    width:42.5%;
+}
+*/
+
+
+.both1_field{
+margin-right:5%;
+}
+
+.medium_field{
+    width:90%;
+   
+}/*
+.date_field{
+    width:40px;
+    margin-right: 10px;
+}
+.year_field{
+    width:80px;
+}*/
+
+.message{
+    width:80%;
+    min-height:100px;
+}
+button{
+    height:40px;
+    width:120px;
+}
+fieldset{
+    margin-left:1%;
+    margin-right:1%;
+    background-color: rgb(218, 209, 218);
+}
+
+.radio_field{
+height:3.5vw;
+width:3.5vw;
+vertical-align:middle; 
+}
+
+label{
+font-size:3vw; 
+vertical-align:middle; 
+} 
+

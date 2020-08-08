@@ -1,0 +1,36 @@
+    .features-list {
+    text-align: center;
+    padding: 4.478em 0; }
+    .features-list .feature {
+      font-size: 1.125em;
+      color: #2d2b2d; }
+      .features-list .feature .feature-icon {
+        margin-bottom: 1em; }
+      .features-list .feature i {
+        color: #bdbdbd;
+        display: table;
+        margin: 0 auto;
+        height: 124px; }
+        .features-list .feature i::before {
+          vertical-align: middle;
+          display: table-cell; }
+      .features-list .feature .po-best-quality {
+        font-size: 5.056em;
+        color: 	#ff0066; }
+      .features-list .feature .po-on-time {
+        font-size: 5.722em;
+        color: 	#ff0066; }
+      .features-list .feature .po-master-chef {
+        font-size: 4.444em;
+        color: 	#ff0066; }
+      .features-list .feature .po-ready-delivery {
+        font-size: 6.889em;
+        color: 	#ff0066; }
+      .features-list .feature h4 {
+        font-size: 1.4em;
+        font-weight: normal; }
+      .features-list .feature h6 {
+        font-size: 16px;
+        color: #71706c;
+        padding: 0 2.6em;
+        line-height: 1.6; }

@@ -1,0 +1,37 @@
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+  }
+  
+  .testimonialarrows li {
+    border-color: #ff0066;
+  }
+  
+  .testimonialarrows li.active {
+    background-color: #ff0066;
+  }
+  .arrow{
+    color: #ff0066;
+  }
+  
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  
+  .item span {
+    font-style: normal;
+  }
+  /* part3 styling */
+  .history li, .whyus li{
+    list-style-type: none;
+  }
+  /* .history h3, .whyus h3{
+    margin-left: 5%;
+  } */
+  .history h3{
+    margin-top: -28px;
+  }
+ 

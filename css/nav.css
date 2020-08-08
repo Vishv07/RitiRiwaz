@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Alegreya+SC:wght@500&family=Lobster&display=swap');
+  .nv{
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+  }
+  .navfont{
+    font-family: 'Alegreya SC', serif;
+    font-size: 16px;
+  }
+  .container {
+   padding: 80px 120px;
+  }
+  .navbar{
+    min-height: 50px;
+  }
+
+.sliderRR
+{
+
+width:100%;
+
+}
+
+  .slidercontent img 
+  {
+    width: 100%;
+    
+    opacity:0.7;
+  }
+
+
+
+.sliderRR::after{
+position: absolute;
+display:flex;
+justify-content:center;
+align-items:center;
+top:0;
+bottom:0;
+left:0;
+right:0;
+content:"RitiRewaz";
+font-family:Allura;
+font-size: 15vw;
+color:white;
+font-weight:9;
+}
+
+
+.slidercontent::after{
+position: absolute;
+display:flex;
+justify-content:right;
+align-items:flex-end;
+top:0;
+bottom:0;
+left:20%;
+right:0;
+content:"Sugar Spice and Everything Nice";
+font-family:Allura;
+font-size: 5vw;
+color:white;
+font-weight:15;
+padding-right:3vw;
+padding-bottom:15vw;
+}
+
+
+
+
+
+
+
+  @media (max-width: 600px) {
+    .navbar-brand {
+     display:none;
+    }
+    /* .icon {
+     display:block;
+   } */
+  }
+@media (min-width: 600px) {
+    .icon {
+     display:none;
+    }
+  }
+
+ 
+  .nav-tabs li a {
+    color: #777;
+  } 
+  #header{
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0px;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 12px !important;
+    opacity: 1;
+    width:100%;
+    position:sticky;
+    top:0;
+    z-index:1;
+  }
+#header li{
+ width:12vw;
+ 
+}
+  #header li a, #header .navbar-brand, .icon { 
+    color: #d5d5d5 !important;
+    margin:10px;
+    
+  }
+  #header .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  #header .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  #header .navbar-toggle {
+    border-color: transparent;
+  }
+  .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+    color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+    background-color: red !important;
+  }
+#myCarousel{
+z-index:-1;
+
+}
+
+   
